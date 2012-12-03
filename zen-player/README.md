@@ -2,7 +2,7 @@
 
 [lab.simurai.com/zen-player](http://lab.simurai.com/zen-player)
 
-## Warning
+## Note
 
 This player is just meant as a __demo__ and not really made to be used on a real site. That's why it's still in the __lab__. ;-)
 It would need lots of fixes, more features and some documentation before it would be ready.
