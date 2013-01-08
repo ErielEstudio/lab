@@ -92,7 +92,6 @@ button.button:hover {
 .button:before {
 	font: 			1.2em/0 sans-serif;
 	content: 		attr(data-icon); /* gets the icon value from the custom data attribute and puts it infront of the button label */
-	margin-right: 	0.4em;
 }
 
 
@@ -100,13 +99,10 @@ button.button:hover {
 .icon {
 	font-weight: normal;
 	font-style: normal;
-	text-indent: 	-999em;
 }
 .icon:before { 
-	margin-right: 	0;
 	display: 		block;
-	height: 		0;
-	text-indent: 	0px;
+	height: 		.75em;
 	line-height:    .75em;	
 }
 
@@ -457,24 +453,6 @@ button.button:hover {
 }
 .morph:after { 
 	display: none;
-}
-
-
-
-
-/* Some ugly hacks for FF. 
-Thanks to David Hund for some help - http://valuedstandards.com/static/test/buttons/ */
-@-moz-document url-prefix() {
-	.button { text-align: center; }
-	.icon { padding: .5em 1em; }
-	.icon:before { margin-left: -.42em; float: left; }
-	.social.icon:before { margin-left: -.22em; }
-	
-	.drop.icon { padding-right: 1.1em; }
-	.shield.icon { padding-left: 1.1em; padding-right: 1.1em; }
-	.skew.icon { padding-right: 1.4em; padding-left: 1.3em; }
-	.oval.icon { padding-left: 1.3em; padding-right: 1.3em;	}
-	.knife { padding-left: 2em; }
 }
 
 
