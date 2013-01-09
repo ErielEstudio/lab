@@ -92,6 +92,7 @@ button.button:hover {
 .button:before {
 	font: 			1.2em/0 sans-serif;
 	content: 		attr(data-icon); /* gets the icon value from the custom data attribute and puts it infront of the button label */
+	margin-right: 6px;
 }
 
 
@@ -100,10 +101,11 @@ button.button:hover {
 	font-weight: normal;
 	font-style: normal;
 }
-.icon:before { 
+.icon:before {
 	display: 		block;
 	height: 		.75em;
-	line-height:    .75em;	
+	line-height:    .75em;
+	margin: 0;
 }
 
 
